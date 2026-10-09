@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 # Load your newly saved Airbnb model
-MODEL_PATH = "first_model.joblib"
+MODEL_PATH = "airbnb.joblib"
 model = joblib.load(MODEL_PATH)
 
 st.set_page_config(page_title="Airbnb Price Predictor", page_icon="🛏️")
